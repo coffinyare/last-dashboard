@@ -6,7 +6,7 @@ import MaintenanceRequest from "../model/maintainance.js"; // Correct import
 const router = express.Router();
 
 // API endpoint to get counts
-router.get("/dashboard", async (req, res) => {
+router.get("/dashboard", async (req , res ) => {
   try {
     const tenantCount = await Tenant.countDocuments();
     const propertyCount = await Property.countDocuments();
