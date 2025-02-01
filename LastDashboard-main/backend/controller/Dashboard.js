@@ -2,6 +2,8 @@ import Tenant from "../model/Tenants.js";
 import Property from "../model/properties.js";
 import MaintenanceRequest from "../model/MaintenanceRequest.js"; // Ensure the import is correct
 
+
+
 // Controller function to get counts
 export const getCounts = async (req, res) => {
   try {
